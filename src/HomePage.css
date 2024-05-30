@@ -1,0 +1,112 @@
+.title {
+  font-size: 32px; /* Large font size for visibility */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Modern, clean font */
+  color: #2c3e50; /* Sophisticated dark blue-grey color */
+  text-align: center; /* Center-align the text */
+  margin-top: 30px; /* Space from the top of the container */
+  padding: 20px; /* Padding around the text */
+  background: linear-gradient(
+    to right,
+    #6dd5ed,
+    #2193b0
+  ); /* Gradient background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: max-content; /* Adjust width to the content size */
+  margin-left: auto; /* Centering the block horizontally */
+  margin-right: auto; /* Centering the block horizontally */
+  width: 750px;
+}
+
+.upload-section {
+  margin-top: 20px;
+}
+
+.remove-btn {
+  margin: 5px;
+}
+
+/* Style for the container to center buttons */
+.upload-image-wrapper {
+  display: flex;
+  justify-content: center; /* Aligns buttons to the center horizontally */
+  align-items: center; /* Aligns buttons to the center vertically */
+
+  gap: 20px; /* Space between buttons */
+}
+
+/* Modern button styling */
+.modern-button {
+  margin-top: 5px;
+  padding: 10px 20px; /* Padding around text */
+  font-size: 16px; /* Text size */
+  font-family: Arial, sans-serif; /* Font style */
+  color: white; /* Text color */
+  background-color: #007bff; /* Background color */
+  border: none; /* No borders */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Cursor indicates clickable */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for 3D effect */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transitions for hover effects */
+  min-width: 100px;
+}
+
+.modern-button:hover {
+  background-color: #0056b3; /* Darker blue when hovered */
+  transform: scale(1.05); /* Slightly larger on hover */
+}
+
+.image-item-btn-wrapper {
+  display: flex;
+  justify-content: center; /* Aligns buttons to the center horizontally */
+  align-items: center; /* Aligns buttons to the center vertically */
+  gap: 20px;
+}
+
+.image-list-container {
+  display: flex;
+  justify-content: center; /* Aligns buttons to the center horizontally */
+  align-items: center; /* Aligns buttons to the center vertically */
+  margin-top: 15px;
+}
+
+/* Container for each status */
+.status-container {
+  margin-top: 20px; /* Space from the previous content */
+  padding: 10px 20px; /* Padding inside the container */
+  background-color: #f2f2f2; /* Light grey background for visibility */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  font-family: Arial, sans-serif; /* Clean and modern font */
+  color: #333; /* Dark grey color for text, ensuring good readability */
+  font-size: 18px; /* Slightly larger font size for clarity */
+  text-align: left; /* Align text to the left */
+}
+
+/* Specific styling for pneumonia status */
+.pneumonia-status {
+  background-color: #e3f2fd; /* Light blue background for pneumonia status */
+}
+
+/* Specific styling for uncertainty */
+.uncertainty-status {
+  background-color: #fff3e0; /* Light orange background for uncertainty */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  margin-top: 20px; /* Adds some space above the image container */
+}
+
+.styled-image {
+  max-width: 90%; /* Limits the image width, maintaining responsiveness */
+  border: 3px solid #2c3e50; /* A solid border around the image */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* A subtle shadow for depth */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.styled-image:hover {
+  transform: scale(1.05); /* Slightly enlarges the image on hover */
+}

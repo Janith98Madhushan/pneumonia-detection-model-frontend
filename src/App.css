@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  background-image: url("./img1.jpg"); /* Adjust path as necessary */
+  background-size: cover; /* Cover the entire space of the div */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  min-height: 100vh; /* Minimum height of 100% of the viewport height */
+  width: 100%; /* Full width */
+  margin-top: 0px;
+  border: 2px solid white;
 }
 
 .App-logo {
